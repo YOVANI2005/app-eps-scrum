@@ -1,0 +1,16 @@
+{
+  "name": "ms-afiliados",
+  "version": "1.0.0",
+  "description": "Microservicio de gestion de afiliados - Sistema EPS (Sprint 2: SCRUM-16, SCRUM-17)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "app-eps-scrum": "file:..",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
